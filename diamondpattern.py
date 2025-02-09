@@ -13,7 +13,7 @@ for i in range(1, halfDiamrow+1):
         print(end=str(num))
         num=num+1
     print()
-    space=1
+space=1
 
 for i in range(1, halfDiamrow):
     for j in range(1, space+1):
@@ -23,4 +23,4 @@ for i in range(1, halfDiamrow):
     for j in range(1, 2*(halfDiamrow-i)):
         print(end=str(num))
         num=num+1
-    print
+    print()
